@@ -1,0 +1,47 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+.button.text-center a{
+	font-size: 19px;
+}
+.button.text-center{
+	margin-bottom: 40px;
+}
+.datting-content.text-center h2 {
+    font-size: 20px;
+}
+
+ }
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+.button.text-center a{
+	font-size: 19px;
+}
+.button.text-center{
+	margin-bottom: 40px;
+}
+.datting-img-content.text-center h2{
+	font-size: 25px;
+}
+
+ }
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+.button.text-center a{
+	font-size: 25px;
+}
+
+ }
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+
+ }
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+
+
+ }

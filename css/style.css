@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700&display=swap');
+
+*{
+	margin:0;
+	padding:0;
+    box-sizing: border-box;
+	
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    background: #0a0559;
+}
+.logo.text-center {
+    width: 10rem;
+    height: auto;
+    margin: 1.3rem auto;
+}
+.datting-img img {
+    width: 20.0625rem;
+    height: 20.0625rem;
+    border-radius: 50%;
+    margin: auto;
+}
+.datting-img {
+    margin: auto;
+    text-align: center;
+}
+.button.text-center a {
+    width: 100%;
+    max-width: 19.625rem;
+    margin-bottom: 1.5625rem;
+    padding-left: 1.15625rem;
+    font-size: 1.1875rem;
+    line-height: 3;
+    text-transform: capitalize;
+    color: #fff;
+    background: #f2b420;
+    border: none;
+    border-radius: 10rem;
+    padding: 20px 42px;
+    font-size: 30px;
+}
+
+.button.text-center {
+    margin-top: 40px;
+}
+.datting-img-content.text-center {
+    margin-top: 15px;
+}
+.button a::after{
+    content: '\eaa0';
+    position: absolute;
+    margin-left: 4px;
+    font-family: Icofont;
+}
+.datting-img-content.text-center h2 {
+    color: #ffc107;
+}
